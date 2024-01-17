@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mooli', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 10rem;
+}
+
+p, li{
+  font-size: large !important;
+}
+
+.resume{
+  border: 2px solid rgb(76, 18, 133);
+  padding: 4rem;
+  box-shadow: 2px 2px 50px rgb(76, 18, 133);
+}
+
+.header{
+  display: flex;
+}
+
+.image-container{
+  width: 50%;
+}
+
+.image{
+  width: 20rem;
+  height: 22rem;
+  border-radius: 50%;
+}
+
+.info{
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.info h1{
+  color: rgb(76, 18, 133);
+  font-size: 50px;
+}
+
+.info h3{
+  color: rgb(75, 75, 75);
+  font-size: 25px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.links a{
+  text-decoration: none;
+  margin: 2px 0;
+}
+
+.links a i{
+  margin-right: 10px;
+}
+
+.profile{
+  max-width: 623px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.profile p{
+  font-size: 15px;
+}
+
+.heading{
+  color: rgb(76, 18, 133);
+  font-size: 30px;
+  margin: 1rem 0;
+}
+
+.skillInfo{
+  display: flex;
+  padding-bottom: 2rem;
+  max-width: 623px;
+}
+
+.left, .right{
+  width: 50%;
+}
+
+.right{
+  padding-left: 3rem;
+}
+
+.right ul{
+  list-style: none;
+}
